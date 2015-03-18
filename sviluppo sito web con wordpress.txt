@@ -1,0 +1,50 @@
+esercitazione in aula: 
+sviluppo sito web con wordpress a tema libero: 
+p.es. MyPersonalWebSite, Negozio di abbigliamento, Società sportiva, ...
+
+
+il tuo compito è creare un sito web con wordpress dimostrando le seguenti abilità
+
+- saper scaricare, installare ed configurare WordPress e i requirements:
+web server (Apache con PHP) e supporto database (MySql)
+
+- saper utilizzare la formattazione dei testi, l'inserimento dei link e dei media negli articoli e nelle pagine
+
+- dare coerenza alle informazioni attraverso l'uso delle tassonomie e scegliere opportunamente stili e colori utilizzati nel sito 
+
+- conoscere le procedure per pubblicare il progetto wordpress online
+
+per essere considerato sufficiente
+il sito web deve avere  un tema personalizzato ed almeno 5 elementi per tipo dei seguenti tipi:
+	5 articoli
+	5 pagine
+	5 categorie
+	5 tag
+	5 voci di menu
+	5 widget
+	5 plugin attivi
+	5 personalizzazioni delle impostazioni generali
+
+consegna dell'elaborato
+
+a) crea una nuova cartella WP_MioCognome
+	inserire nella nuova cartella: 
+		1) 	l'intera cartella "wp-content" di wordpress 
+		2)	il file "wp-config.php"
+		2b)	eventuali altre personalizzazioni esterne a wp-content 
+		3) l'esportazione completa del database (denominato WP_MioCognome)
+		4) un documento contenente almeno 5 pagine (pdf o cartella con printscreen) del vostro progetto (lato front-end)
+		5) un documento (o cartella di immagini, come sopra) con le principali videate del vostro back-end, in particolare:
+			5.1) la pagina con tutti gli articoli
+			5.2) la pagina con tutte le pagine
+			5.3) la pagina delle categorie
+			5.4) la pagina dei menu
+			5.5) la pagina dei plugin
+			5.6) la pagina dei temi
+			5.7) la pagina dei widget
+		6) è gradito, ma non obbligatorio (nel caso sarà valutato) un documento con le caratteristiche principali del vostro sito: tema e plugin utilizzati, tassonomie, personalizzazioni effettuate, etc...
+		
+b) comprimi la cartella principale in formato zip e consegnate il giorno 1 aprile 2015 entro le ore 19.00 (penultima lezione)
+
+buon lavoro :)
+	
