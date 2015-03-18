@@ -1,0 +1,40 @@
+wordpress = CMS
+	content management system
+
+requirements tecnologici
+	apache 
+		web server
+	mysql 
+		database
+	php 
+		linguaggio programmazione server-side
+
+per eseguire in locale WP, ho bisogno di -> xampp (si scarica liberamente dalla rete) esistono anche mamp, wamp. easyphp, ..
+
+aprire browser, digitare:
+http://localhost
+http://127.0.0.1
+
+per caricare su un sito remoto, in uno spazio hosting esterno 
+acquistare spazio hosting + database
+
+1) in localhost/phpmyadmin creare database con nome significativo
+p. es WPCognome
+2) ho bisogno di:
+	username database: root (in xampp)
+	password database: nessuna pw (in xampp)
+	host, indirizzo database: localhost (perché eseguo in locale)
+
+3) scaricare wordpress da it.wordpress.org
+4) scompattare wordpress.zip dentro xampp/htdocs/ nella cartella wordpress (o altro nome a scelta)
+5) collegarsi con un browser all'url 
+http://localhost/wordpress
+6) inserire le informazione per la prima configurazione, viene creato da wordpress il file wp-config.php che contiene la vostra configurazione di WP
+7) durante l'installazione vengono create le tabelle nel database WPCognome, devo imparare ad esportare e reimportare il database
+8) riempire il form con titolo del sito, nome utente, password
+9) accedere al front-end all'url localhost/wordpress
+10) accedere all'interfaccia admin all'url localhost/wordpress/wp-admin
+11) esporto il database per la prossima volta
+12) comprimo la cartella wordpress e la conservo per la prossima volta
+
+
